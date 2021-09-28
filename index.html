@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Swwet alert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Mis cosas -->
+  <link rel="stylesheet" href="css/styles_inputs.css">
+  <link rel="stylesheet" href="css/styles_login.css">
+  <link rel="stylesheet" href="css/styles-principal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Inicio de sesion</title>
+</head>
+
+
+<body>
+
+  <form class="form animate__animated animate__fadeInDown" id="form">
+    <!-- <img src="resources/img/logo.png" class="avatar"> -->
+    <h3 class="bienvenidaLogin">Benvenido</h3>
+    <div class="form-input-animado">
+      <input type="text" id="email" autocomplete="off" required>
+      <label for="username" class="label-input">
+        <span class="content">Correo Electrónico</span>
+      </label>
+    </div>
+
+    <div class="form-input-animado">
+      <input type="password" id="pass" autocomplete="off" required>
+      <label for="pass" class="label-input">
+        <span class="content">Contraseña</span>
+      </label>
+    </div>
+    
+
+    <a href="#" class="button" id="button">Inicia sesión</a>
+
+
+    <div class="link-content">
+      <p><a class="links" href="registro.html"><span></span> Registrate</a> aquí</p>
+    </div>
+
+    <div class="link-content">
+      <a class="links" href="#"><span></span>¿Olvidaste la contraseña?</a>
+    </div>
+  </form>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
+  <script src="js/alertas.js" charset="utf-8"></script>`
+  <script src="js/inicio-sesion.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.alerta-bad{
+  color:#F24536;
+}
+.alerta-ok{
+  color:#09A45B;
+}
+
+/*Cambiar el color del navbar*/
+.bg-light{
+  /*background-color: #33B4E5 !important;*/
+  background-color: transparent !important;
+}
+
+.bg{
+  /* background-color: #c82e2e; */
+  background: linear-gradient(to right, #7f7fd5,  #91eae4);
+}

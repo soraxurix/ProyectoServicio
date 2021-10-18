@@ -1,0 +1,48 @@
+.container-actualizarinfo{
+	padding: 50px;
+	display: flex;
+  	justify-content: center;
+}
+
+.actualizarinfo{
+	width: 950px;
+	position: absolute;
+	padding: 30px;
+	background-color: #fff;
+	border: 2px solid #33B4E5;
+	border-radius: 10px;
+	box-shadow: 2px 23px 46px -10px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 2px 23px 46px -10px rgba(0,0,0,0.35);
+	-moz-box-shadow: 2px 23px 46px -10px rgba(0,0,0,0.35);
+}
+
+/*Estilos para que sea responsive el div*/
+@media screen and (max-width: 980px){
+    .actualizarinfo{
+        width: 95%;
+    }
+}
+.form-control:focus{
+    color: #33B4E5;
+}
+/*Cuando son seleccionados*/
+.form-outline .form-control:focus~.form-notch .form-notch-leading {
+    border-top: .125rem solid #33B4E5;
+    border-bottom: .125rem solid #33B4E5;
+    border-left: .125rem solid #33B4E5;
+}
+ .form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-bottom: .125rem solid;
+    border-color: #33B4E5;
+}
+
+.form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor #33B4E5;
+    border-bottom: .125rem solid #33B4E5;
+    border-right: .125rem solid #33B4E5;
+    border-top: .125rem solid #33B4E5;
+}
+
+.form-outline .form-control:focus~.form-label {
+    color: #33B4E5;;
+}		

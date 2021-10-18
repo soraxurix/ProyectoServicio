@@ -1,8 +1,5 @@
 const buttonRegistro = document.getElementById("button");
 var yaTermino = true;
-// document.getElementById("pass").value = "prueba1234";
-// document.getElementById("email").value = "uricar2@hotmail.com";
-
 
 
 buttonRegistro.addEventListener("click", async function(e) {
@@ -23,7 +20,7 @@ buttonRegistro.addEventListener("click", async function(e) {
     yaTermino = true;
     switch (data) {
       case 200:
-        window.location.replace("principal.php");
+        window.location.replace("perfil.php");
         break;
       case 201:
         alerta('MessageBad', 'El email no es correcto');

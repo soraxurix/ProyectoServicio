@@ -7,11 +7,28 @@
 
 /*Cambiar el color del navbar*/
 .bg-light{
-  /*background-color: #33B4E5 !important;*/
   background-color: transparent !important;
 }
 
 .bg{
   /* background-color: #c82e2e; */
-  background: linear-gradient(to right, #7f7fd5,  #91eae4);
+  background-color: #fff;
+  /*background: linear-gradient(to right, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.config-button{
+	color: #0b8ebf;
+	font-size: 22px;
+	font-style: bold;
+}
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item{
+  color: #0b8ebf;
+}
+/*Estilos para el las opciones*/
+
+@media screen and (max-width: 990px){
+    .dropdown-menu{
+        width: 100%;
+    }
 }

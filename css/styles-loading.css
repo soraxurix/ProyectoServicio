@@ -1,0 +1,24 @@
+/* Estilos para el loader principal */
+.loadingPrincipal{
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  /*background: rgba(46, 45, 45, 0.99);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.loadingPrincipal.hidden {
+  display: none;
+  transition: margin-left 4s;
+}
+
+.spinner-principal{
+  width: 5rem; 
+  height: 5rem;
+}

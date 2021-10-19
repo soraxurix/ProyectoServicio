@@ -30,7 +30,7 @@ buttonRegistrar.addEventListener('click', async function(e) {
       switch (data) {
         case 200:
         // await alerta("MessageOK", "Se creó exitosamente");
-        window.location.replace("principal.php");
+        window.location.replace("perfil.php");
         break;
         case 201:
         alerta('MessageBad', 'El email ingresado ya existe');

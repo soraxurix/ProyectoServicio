@@ -22,16 +22,16 @@ async function AñadirValores (e){
 function agregarvalores (DATA) {
 	// Agregamos el valor sacadi de la base de datos
 	document.getElementById("input-nombre").value = DATA[0].Nombre;
-  	document.getElementById("input-apellido").value = DATA[0].Apellido;
-  	document.getElementById("input-email").value = DATA[0].Email;
-  	document.getElementById("input-telefono").value = DATA[0].Telefono;
-  	document.getElementById("input-pass").value = DATA[0].Pass;
-  	// Agreganos la clase activo para que el input se vea correctamente
-  	document.getElementById("input-nombre").classList.add('active');
-  	document.getElementById("input-apellido").classList.add('active');
-  	document.getElementById("input-email").classList.add('active');
-  	document.getElementById("input-telefono").classList.add('active');
-  	document.getElementById("input-pass").classList.add('active');
-  	// Indicamos que el imput del nombre estará seleccionado al iniciar
-  	document.getElementById("input-nombre").focus();
+	document.getElementById("input-apellido").value = DATA[0].Apellido;
+	document.getElementById("input-email").value = DATA[0].Email;
+	document.getElementById("input-telefono").value = DATA[0].Telefono;
+	document.getElementById("input-pass").value = DATA[0].Pass;
+	// Agreganos la clase activo para que el input se vea correctamente
+	document.getElementById("input-nombre").classList.add('active');
+	document.getElementById("input-apellido").classList.add('active');
+	document.getElementById("input-email").classList.add('active');
+	document.getElementById("input-telefono").classList.add('active');
+	document.getElementById("input-pass").classList.add('active');
+	// Indicamos que el imput del nombre estará seleccionado al iniciar
+	document.getElementById("input-nombre").focus();
 }

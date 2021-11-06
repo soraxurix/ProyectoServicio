@@ -67,7 +67,7 @@
           </div>
 
           <!-- Submit button -->
-          <a href="#" class="btn btn-success btn-rounded ">Actualizar información</a>
+          <a href="#" class="btn btn-success btn-rounded " id="buttonActualizar">Actualizar información</a>
           <a href="#" class="btn btn-danger btn-rounded ">Cerrar sesión</a>
 
         </form>
